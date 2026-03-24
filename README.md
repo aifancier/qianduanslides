@@ -1,158 +1,256 @@
-# Frontend Slides
+::: article-wrapper
+::: header-banner
+::: fire-tag
+🔥 深度报道 · 普通员工视角
+:::
 
-A Claude Code skill for creating stunning, animation-rich HTML presentations — from scratch or by converting PowerPoint files.
+::: main-title
+霍尔木兹海峡锁死了，你的工资却先断了气------一场离你最近的石油战争
+:::
 
-## What This Does
+::: subtitle
+美以伊战争第三周：当2000万桶原油凭空消失，打工人才是最先倒下的那一块多米诺
+:::
 
-**Frontend Slides** helps non-designers create beautiful web presentations without knowing CSS or JavaScript. It uses a "show, don't tell" approach: instead of asking you to describe your aesthetic preferences in words, it generates visual previews and lets you pick what you like.
+::: meta-row
+📅 2025年3月 ✍️ 普通打工人视角 📍 全球经济特别报道
+:::
+:::
 
-### Key Features
+::: lead-para
+你以为中东打仗是电视里的事？\
+错了。\
+当霍尔木兹海峡关门的那一刻，你加油站的油价、你老板的成本、你年底的奖金------**已经开始悄悄蒸发。**
+这不是预言，这是正在发生的事。
+:::
 
-- **Zero Dependencies** — Single HTML files with inline CSS/JS. No npm, no build tools, no frameworks.
-- **Visual Style Discovery** — Can't articulate design preferences? No problem. Pick from generated visual previews.
-- **PPT Conversion** — Convert existing PowerPoint files to web, preserving all images and content.
-- **Anti-AI-Slop** — Curated distinctive styles that avoid generic AI aesthetics (bye-bye, purple gradients on white).
-- **Production Quality** — Accessible, responsive, well-commented code you can customize.
+::: divider-flame
+🛢
 
-## Installation
+::: line
+:::
 
-### For Claude Code Users
+🛢
+:::
 
-Copy the skill files to your Claude Code skills directory:
+::: section-h1
+一、那条海峡，相当于全球石油的总阀门
+:::
 
-```bash
-# Create the skill directory
-mkdir -p ~/.claude/skills/frontend-slides
+霍尔木兹海峡，宽度最窄处不过55公里，却是**全球近五分之一原油**的必经之路。2025年3月，美以联军对伊朗开战后，这条\"石油咽喉\"被伊朗彻底封堵。
 
-# Copy the files (or download from this repo)
-cp SKILL.md ~/.claude/skills/frontend-slides/
-cp STYLE_PRESETS.md ~/.claude/skills/frontend-slides/
-```
+::: data-grid
+::: data-card
+::: num
+20%
+:::
 
-Then use it by typing `/frontend-slides` in Claude Code.
+::: lbl
+全球石油供应被截断
+:::
+:::
 
-### Manual Download
+::: data-card
+::: num
+850万桶/天
+:::
 
-1. Download `SKILL.md` and `STYLE_PRESETS.md` from this repo
-2. Place them in `~/.claude/skills/frontend-slides/`
-3. Restart Claude Code
+::: lbl
+波斯湾地区被迫停产
+:::
+:::
 
-## Usage
+::: data-card
+::: num
+3亿桶
+:::
 
-### Create a New Presentation
+::: lbl
+15天内积累的\"石油真空\"
+:::
+:::
 
-```
-/frontend-slides
+::: data-card
+::: num
+\$120
+:::
 
-> "I want to create a pitch deck for my AI startup"
-```
+::: lbl
+布伦特原油单日峰值(美元/桶)
+:::
+:::
+:::
 
-The skill will:
-1. Ask about your content (slides, messages, images)
-2. Ask about the feeling you want (impressed? excited? calm?)
-3. Generate 3 visual style previews for you to compare
-4. Create the full presentation in your chosen style
-5. Open it in your browser
+能源分析师、多伦多大学蒙克全球事务学院讲师**罗里·约翰斯顿（Rory
+Johnston）**这样描述当前的局面：整个全球石油体系就像一套\"流动的化学装置\"，需要持续稳定运转，一旦流速骤变，**系统就会从弯曲走向断裂**。
 
-### Convert a PowerPoint
+::: img-block
+::: img-placeholder
+::: icon
+🗺️
+:::
 
-```
-/frontend-slides
+<div>
 
-> "Convert my presentation.pptx to a web slideshow"
-```
+波斯湾石油运输路线示意图
 
-The skill will:
-1. Extract all text, images, and notes from your PPT
-2. Show you the extracted content for confirmation
-3. Let you pick a visual style
-4. Generate an HTML presentation with all your original assets
+</div>
 
-## Included Styles
+::: prompt-tag
+AI生图提示词：Satellite map view of the Strait of Hormuz, Persian Gulf
+oil tanker routes highlighted in orange, dramatic lighting, infographic
+style, dark background, cinematic wide angle
+:::
+:::
 
-### Dark Themes
-- **Neon Cyber** — Futuristic, techy, particle effects
-- **Midnight Executive** — Premium, corporate, trustworthy
-- **Deep Space** — Cinematic, inspiring, vast
-- **Terminal Green** — Developer-focused, hacker aesthetic
+::: img-caption
+霍尔木兹海峡：全球最重要的石油通道，每天流量相当于全球供应量的五分之一
+:::
+:::
 
-### Light Themes
-- **Paper & Ink** — Editorial, literary, refined
-- **Swiss Modern** — Clean, Bauhaus-inspired, geometric
-- **Soft Pastel** — Friendly, playful, creative
-- **Warm Editorial** — Magazine-style, photographic
+::: divider-wave
+～～～
+:::
 
-### Specialty
-- **Brutalist** — Raw, bold, attention-grabbing
-- **Gradient Wave** — Modern SaaS aesthetic
+::: section-h2
+二、你感觉不到，但\"气泡\"正在飞速逼近
+:::
 
-## Output Example
+约翰斯顿用了一个非常形象的词------**\"气穴\"（air
+pocket）**。就像你猛地拔掉浴缸塞子，水面先是没什么变化，然后突然就漩涡式塌陷了。
 
-Each presentation is a single, self-contained HTML file:
+目前，三周前离港的油轮还在海上漂着，还没靠岸。亚洲的炼油厂靠着库存撑着，但**再过一到两周**，库存就会开始骨牌式崩塌。到那时候，你才会在加油站、在超市货架、在快递费里感受到真正的冲击。
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Fonts, CSS variables, all styles inline -->
-</head>
-<body>
-    <section class="slide title-slide">
-        <h1 class="reveal">Your Title</h1>
-    </section>
+::: blockquote
+\"现在市场还在等川普明天宣布停火。但如果不停，那10年内最大的一次石油冲击就要来了。\"
+[--- 罗里·约翰斯顿，《Commodity Context》创始人]{.quote-author}
+:::
 
-    <section class="slide">
-        <h2 class="reveal">Slide Content</h2>
-    </section>
+更值得关注的是**柴油和航空煤油**：它们才是真正拖动经济列车的燃料。柴油\"裂解价差\"（相对原油的溢价）已从每桶30美元飙升至近**70美元**------这意味着你买的每一箱生鲜、每一件电商快递，成本链条正在隐形涨价。
 
-    <!-- Navigation: Arrow keys, scroll, swipe, or click dots -->
-    <script>
-        // SlidePresentation controller, animations, interactions
-    </script>
-</body>
-</html>
-```
+::: divider-dots
+:::
 
-Features included:
-- Keyboard navigation (arrows, space)
-- Touch/swipe support
-- Mouse wheel scrolling
-- Progress bar
-- Navigation dots
-- Scroll-triggered animations
-- Responsive design
-- Reduced motion support
+::: section-h3
+三、中国打工人要承担什么？
+:::
 
-## Philosophy
+中国是全球最大的原油进口国，高度依赖中东供应。霍尔木兹关门，**首当其冲的就是亚洲**。亚洲的航空煤油已突破每桶200美元，用于全球航运的重燃油（通常比原油便宜）现在反而溢价交易。
 
-This skill was born from the belief that:
+::: case-box
+::: case-label
+📌 真实案例：2022年巴基斯坦能源危机
+:::
 
-1. **You don't need to be a designer to make beautiful things.** You just need to react to what you see.
+2022年，欧洲天然气危机期间，一艘原本驶向巴基斯坦的液化天然气船临时违约，转而驶向欧洲------因为欧洲出价更高。巴基斯坦电力短缺加剧，工厂停工，普通人冬天没有取暖。**市场用价格决定谁有资格得到能源，穷国的人只能没有。**
+:::
 
-2. **Dependencies are debt.** A single HTML file will work in 10 years. A React project from 2019? Good luck.
+对中国普通打工人而言，这一幕极具参考意义：即便中国有购买力，**高油价也会推高所有制造业成本**，进而传导至企业利润、用工规模、工资水平。历史规律表明，从油价暴涨到你感觉到钱包缩水，通常只需三到六个月。
 
-3. **Generic is forgettable.** Every presentation should feel custom-crafted, not template-generated.
+::: blockquote
+\"最终来的，不是你不去上班，而是你失业了，所以不去上班。\" [---
+罗里·约翰斯顿，描述\"收入弹性需求破坏\"机制]{.quote-author}
+:::
 
-4. **Comments are kindness.** Code should explain itself to future-you (or anyone else who opens it).
+::: img-block
+::: img-placeholder
+::: icon
+🏭
+:::
 
-## Files
+<div>
 
-| File | Purpose |
-|------|---------|
-| `SKILL.md` | Main skill instructions for Claude Code |
-| `STYLE_PRESETS.md` | Reference file with 10 curated visual styles |
+中国东部沿海炼化基地
 
-## Requirements
+</div>
 
-- [Claude Code](https://claude.ai/claude-code) CLI
-- For PPT conversion: Python with `python-pptx` library
+::: prompt-tag
+AI生图提示词：Aerial view of a large Chinese oil refinery at dusk near
+the coast, industrial chimneys, warm orange sky, cinematic photography,
+Shandong province style landscape
+:::
+:::
 
-## Credits
+::: img-caption
+中国是亚洲最大炼油国，也是此次石油断供的重要承压方
+:::
+:::
 
-Created by [@zarazhangrui](https://github.com/zarazhangrui) with Claude Code.
+::: divider-zigzag
+◇ ◆ ◇ ◆ ◇ ◆ ◇
+:::
 
-Inspired by the "Vibe Coding" philosophy — building beautiful things without being a traditional software engineer.
+::: section-h4
+四、历史告诉我们：这次不一样
+:::
 
-## License
+很多人说：2022年俄乌战争时，西方预测要断供300万桶/天的俄罗斯石油，结果基本没事，市场自己消化了。为什么这次不行？
 
-MIT — Use it, modify it, share it.
+关键的区别只有一个数字：**3，对比20。**
+
+俄乌战争的核心威胁是每天300万桶。即便如此，最终损失约100万桶，很快恢复。但此次霍尔木兹关停，**每天真实损失是2000万桶**------整整7倍以上。这不是弯曲，这是断裂。
+
+::: blockquote
+\"通胀的恐怖不在于价格本身，而在于人们的预期一旦脱锚，就如1970年代一样难以收回。那时沃尔克不得不制造一场衰退，才强行把预期拉了回来。\"
+[--- 保罗·沃尔克（Paul
+Volcker），美联储前主席，1970年代抗通胀行动的直接操盘者]{.quote-author}
+:::
+
+今天，汽油价格是普通人\"肉眼可见\"的通胀指标------他们每天上班路上都要看到油价牌，哪怕其他商品还只涨了2%，如果油价涨了25%，**人们对通胀的感知就会是25%**。这正是央行最恐惧的心理失控时刻。
+
+::: divider-flame
+⚠️
+
+::: line
+:::
+
+⚠️
+:::
+
+::: section-h5
+五、普通员工能做什么？
+:::
+
+坦白讲，**我们做不了太多**。但也不是完全无能为力：
+
+::: case-box
+::: case-label
+💡 打工人自保清单（认真版）
+:::
+
+✔
+**减少不必要的大宗消费**，尤其是能源密集型消费（频繁长途出行、大排量驾车）
+
+✔
+**关注企业经营动向**：油价高企首先冲击高能耗制造业、物流业、航空业，如果你在这些行业，需要提前评估风险
+
+✔
+**对飙涨的房贷利率保持警惕**：多国央行已开始暂停降息，澳大利亚已率先加息，中国政策空间也会受制约
+
+✔
+**不必囤积物资恐慌**：短期内中国国内供应链有缓冲能力，真正影响显现需要3个月左右
+:::
+
+::: blockquote
+\"风险润滑了全球市场的齿轮，而不确定性则让它嘎然而止。\" [---
+沃伦·巴菲特（Warren
+Buffett）常引用的市场格言，在当前局势中格外应景]{.quote-author}
+:::
+
+当前局势最大的问题，是**没有人知道这场战争要打多久**。一个人（或者一句推特）就能改变全球油价走向------这种极端的\"单点依赖\"，才是市场最难定价的真正风险。
+
+::: comedy-box
+::: emoji-row
+😂 🛢 💸 🍜 😭
+:::
+
+**好消息：**据说最近外卖平台的骑手抱怨油费太高，正在集体考虑改骑自行车。
+
+**坏消息：**自行车厂商表示，零件都要从越南进口，船运费已经涨了。
+
+**更坏的消息：**越南工厂的电力有一半靠重燃油发电......
+
+总结：这是一个多米诺骨牌，而你我，大概站在第七块上面。\
+**保重，继续上班，好好吃饭，多攒钱。**
+:::
+:::
